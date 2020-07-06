@@ -1,0 +1,31 @@
+{
+  "name": "video_metadata",
+  "version": "1.0.0",
+  "description": "Node.js API for getting video metadata and thumbnail",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraigMerchant/video_metadata.git"
+  },
+  "keywords": [
+    "video",
+    "nodejs",
+    "metadata",
+    "thumbnail"
+  ],
+  "author": "Craig Merchant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CraigMerchant/video_metadata/issues"
+  },
+  "homepage": "https://github.com/CraigMerchant/video_metadata#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ffprobe": "^1.1.0",
+    "ffprobe-static": "^3.0.0",
+    "simple-thumbnail": "^1.6.5"
+  }
+}
